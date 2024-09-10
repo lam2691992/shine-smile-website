@@ -47,7 +47,7 @@ a {
 .section-desc {
   margin-top: 18px;
   color: #575f66;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 300;
   line-height: 1.67;
@@ -104,7 +104,8 @@ a {
   line-height: 1.75;
 }
 .navbar__link:hover,
-.navbar__link--active {
+.navbar__link--active,
+.header__action--login:hover {
   color: #fff;
   text-align: center;
   font-size: 1.6rem;
@@ -460,7 +461,7 @@ a {
 /* bog */
 .blog {
   padding-top: 170px;
-  background: #FFF;
+  background: #fff;
 }
 .blog__inner {
   display: flex;
@@ -540,9 +541,33 @@ a {
 .blog-item__more {
   display: inline-block;
   margin-top: 12px;
-  color: #10375C;
+  color: #10375c;
   font-size: 1.4rem;
 }
 .blog-item__more:hover {
   color: #2e80ce;
+}
+/* appointment */
+.appointment {
+  margin: 170px 0;
+}
+.appointment__inner {
+  padding: 100px 178px;
+  background: #f6fbff;
+  text-align: center;
+}
+.appointment__heading::after {
+  margin: 18px auto 0;
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+}
+.appointment__desc{
+  width: 617px;
+  margin: 18px auto 0;
+}
+.appointment__btn {
+  margin-top: 38px;
 }
